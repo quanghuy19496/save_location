@@ -5,11 +5,11 @@ Build demo app with requirements:
   + With kill app mode: currently, flutter doesn't support that. When the app is killed (not the same as put in the background) the instance of the app is removed thus it wont be able to run the package to fetch the location.
 - Display all local location saved into List View
 Demo app with:
-- Manage state: Provider
-- Pattern: MVVM
-- Save DB local: sqflite
-- Run app in background: workmanager
-- Get location: geolocator
+  - Manage state: Provider
+  - Pattern: MVVM
+  - Save DB local: sqflite
+  - Run app in background: workmanager
+  - Get location: geolocator
 
 ## Getting Started
 
