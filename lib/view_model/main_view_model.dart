@@ -5,8 +5,8 @@ import 'package:save_location/local/dao/address_location_dao.dart';
 import 'package:save_location/local/model/address_location_model.dart';
 import 'package:workmanager/workmanager.dart';
 
-import 'local/app_database.dart';
-import 'local/repositories/main_repository.dart';
+import '../local/app_database.dart';
+import '../local/repositories/main_repository.dart';
 
 class MainViewModel extends BaseViewModel {
   final MainRepository _mainRepository = MainRepository();

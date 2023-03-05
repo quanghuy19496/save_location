@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:save_location/base/base_view.dart';
 import 'package:save_location/local/model/address_location_model.dart';
 
-import 'main_view_model.dart';
+import '../view_model/main_view_model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
