@@ -1,6 +1,15 @@
 # save_location
 
-A new Flutter project.
+Build demo app with requirements:
+- Using background service for tracking user location in foreground, background and saved it into local
+  + With kill app mode: currently, flutter doesn't support that. When the app is killed (not the same as put in the background) the instance of the app is removed thus it wont be able to run the package to fetch the location.
+- Display all local location saved into List View
+Demo app with:
+- Manage state: Provider
+- Pattern: MVVM
+- Save DB local: sqflite
+- Run app in background: workmanager
+- Get location: geolocator
 
 ## Getting Started
 
